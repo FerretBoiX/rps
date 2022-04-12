@@ -1,0 +1,62 @@
+html {
+    text-align: center;
+  }
+
+  .btn {
+    transition: all 0.25s;
+    margin-right: 4px;
+    box-shadow: 0 7px rgb(88, 88, 88);
+    background-color: rgb(155, 155, 155);
+    border-style: groove;
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    cursor: crosshair;
+    background-color: rgb(124, 124, 124)
+}
+
+html {
+    text-shadow: 0 3px dimgray;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-right: 5%;
+}
+
+img {
+    transition: all 0.25s;
+}
+
+img:hover {
+    transform: scale(1.1);
+    cursor: crosshair;
+    background-color: rgb(124, 124, 124)
+}
+
+.taxti {
+    transform: scale(1.1);
+    background-color: rgb(124, 124, 124)
+}
+
+input[type=text] {
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  input[type=text]:focus {
+    border: 3px solid #555;
+  }
